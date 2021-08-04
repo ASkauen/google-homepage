@@ -129,6 +129,11 @@
     text-decoration: underline;
 }
 
+button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 body {
     margin-left: 0px;
     margin-right: 0px;
