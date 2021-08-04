@@ -1,0 +1,85 @@
+.logo {
+    display: block;
+    margin: 250px auto 0px auto;
+}
+
+.search-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 2px;
+    border-radius: 50vmin;
+    padding: 0px 10px;
+    width: 50%;
+    min-width: 300px;
+    max-width: 500px;
+    height: 45px;
+    position: relative;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "mag search mic";
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 45px;
+    min-width: 345px;
+    max-width: 545px;
+    position: relative;
+    top: 30px;
+    /*border: black 1px solid;*/
+}
+
+.mic {
+    align-self: center;
+    /*border: black 1px solid;*/
+}
+.mag-glass {
+    align-self: center;
+    /*border: black 1px solid;*/
+}
+
+.search {
+    border: 0px;
+    font-size: 24px;
+}
+
+.search:focus {
+    outline: 0px;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: auto auto 1fr repeat(4, auto);
+    align-items: center;
+    grid-column-gap: 15px;
+}
+
+.header-link {
+    color: gray;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+.header-btn-link {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.sign-in-btn {
+    text-decoration: none;
+    height: 35px;
+    width: 70px;
+    background-color: #4a88ec;
+    border: none;
+    border-radius: 3px;
+    margin-right: 20px;
+}
